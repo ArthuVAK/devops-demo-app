@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("DevOps Demo Application is running!");
+  res.send("DevOps Demo Application is running! CI/CD Test!!");
 });
 
 if (require.main === module) {

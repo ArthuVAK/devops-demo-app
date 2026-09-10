@@ -6,6 +6,6 @@ describe("DevOps Demo Application", () => {
     const response = await request(app).get("/");
 
     expect(response.statusCode).toBe(200);
-    expect(response.text).toBe("DevOps Demo Application is running!");
+    expect(response.text).toBe("DevOps Demo Application is running! CI/CD Test!");
   });
 });
